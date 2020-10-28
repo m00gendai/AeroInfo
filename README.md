@@ -1,12 +1,12 @@
-0. Language
-1. Description
-2. Overview
-3. Features
-4. Techniques used
-5. Remarks
+Language
+Description
+Overview
+Features
+Techniques used
+Remarks
 
 +------------------------------------------------------------------------------------------------+
-| 0. LANGUAGE                                                                                    |
+| LANGUAGE                                                                                       |
 +------------------------------------------------------------------------------------------------+
 
 - Written in Python 3.8
@@ -14,13 +14,13 @@
 - Developed on IDLE
 
 +------------------------------------------------------------------------------------------------+
-| 1. DESCRIPTION                                                                                 |
+| DESCRIPTION                                                                                    |
 +------------------------------------------------------------------------------------------------+
 
 Tool used to get detail information of a navaid or airport. 
 
 +------------------------------------------------------------------------------------------------+
-| 2. OVERVIEW                                                                                    |
+| OVERVIEW                                                                                       |
 +------------------------------------------------------------------------------------------------+
 
 GUI split into two main rows.
@@ -41,7 +41,7 @@ Row 2 fetches airport information based on input of its ICAO designator. Informa
 - Available frequencies: Frequency    (eg. 127.25)
 
 +------------------------------------------------------------------------------------------------+
-| 3. FEATURES                                                                                    |
+| FEATURES                                                                                       |
 +------------------------------------------------------------------------------------------------+
 
 - GUI built with tkinter grid layout
@@ -53,7 +53,7 @@ Row 2 fetches airport information based on input of its ICAO designator. Informa
 - Source mention with timestamp of CSVs used
 
 +------------------------------------------------------------------------------------------------+
-| 4. TECHNIQUES USED                                                                             |
+| TECHNIQUES USED                                                                                |
 +------------------------------------------------------------------------------------------------+
 
 - Modules used:
@@ -67,7 +67,7 @@ Row 2 fetches airport information based on input of its ICAO designator. Informa
 - Minor format rules to change CSV data (eg. CSV: VOR-DME > Tool: VOR/DME)
 
 +------------------------------------------------------------------------------------------------+
-| 5. REMARKS                                                                                     |
+| REMARKS                                                                                        |
 +------------------------------------------------------------------------------------------------+
 
 Relies on availability of source files and the constant format thereof. 
